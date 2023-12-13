@@ -1819,3 +1819,49 @@ section {
         margin-bottom: 10px
     }
 }
+
+
+.countdown {
+  margin-bottom: 80px;
+}
+
+.countdown div {
+  text-align: center;
+  background-color:transparent;
+  border: 2px solid white;;
+  border-radius: 8px;
+  margin: 10px 10px;
+  width: 100px;
+  color:white;
+  padding: 15px 0;
+}
+
+.countdown div h3 {
+  font-weight: 700;
+  font-size: 32px;
+  color:white !important;
+  margin-bottom: 15px;
+}
+
+.countdown div h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+@media (max-width: 575px) {
+ .countdown div {
+    width: 70px;
+    padding: 10px 0;
+    margin: 10px 8px;
+  }
+
+.countdown div h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+
+ .countdown div h4 {
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
