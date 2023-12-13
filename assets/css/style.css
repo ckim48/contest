@@ -1703,10 +1703,24 @@ section {
 }
 
     .award-card {
-      background-color: #f8f9fa;
+      width:50%;
+      background-color:white;
+
       border-radius: 10px;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       transition: transform 0.3s;
+    }
+    .first-place{
+      color: #E25315!important;
+    }
+    .second-place{
+      color:#E1855C !important;
+    }
+    .third-place{
+      color:#E2B715 !important;
+    }
+    .certificate{
+      background-color: white;
     }
 
     .award-card:hover {
@@ -1715,12 +1729,12 @@ section {
 
     .award-card .card-title {
       font-size: 1.5rem;
-      color: #333;
+      color: #535353;
     }
 
     .award-card .card-text {
       font-size: 1.2rem;
-      color: #555;
+      color: #535353;
     }
 .main-timeline .description {
     margin-bottom: 0;
