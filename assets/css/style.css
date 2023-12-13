@@ -745,14 +745,18 @@ section {
   line-height: 24px;
   margin-bottom: 0;
 }
-
+#timeline
+{
+  padding: 60px 0;
+  background: #004a99;
+}
 #why-us {
   padding: 60px 0;
   background: #004a99;
 }
 
-#why-us .section-header h3,
-#why-us .section-header p {
+#timeline .section-header h3,
+#timeline .section-header p {
   color: #fff;
 }
 
